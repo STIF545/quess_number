@@ -11,9 +11,9 @@ def main():
         if quess < number:
             print('Ваше число меньше того, что загадано.')
 
-        if quess > number:
+        elif quess > number:
             print('Ваше число больше того, что загадано.')
 
-        if quess == number:
+        elif quess == number:
             break
 print('Отличная интуиция! Вы угадали число :)')
