@@ -4,6 +4,7 @@ from random import randint
 number = randint(0, 100)
 print('Угадайте число от 1 до 100')
 
+
 def main():
     while True:
         quess = int(input('Введите число: '))
@@ -16,4 +17,6 @@ def main():
 
         elif quess == number:
             break
+
+
 print('Отличная интуиция! Вы угадали число :)')
